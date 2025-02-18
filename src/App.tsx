@@ -2,6 +2,7 @@
 import { useState } from "react";
 import webp from "../src/assets/bear-kiss.webp";
 import webp2 from "../src/assets/bear-rose.webp";
+import lovesvg from "./assets/Love In The Air SVG Cut File.svg"
 
 export default function Page() {
   const [noCount, setNoCount] = useState(0);
@@ -50,6 +51,11 @@ export default function Page() {
             This year has been fun, lovely, memorable, and a bit less stressful,
             just because of your presence alone.
           </div>
+          
+          <img src={lovesvg}
+          className="fixed animate-pulse top-10 md:left-24 left-6 md:w-40 w-28"
+          />
+
           <div className="my-1 text-lg italic">
             I know sometimes I'm stressful and annoying, and I want to thank you
             for always putting up with me and taking care of me.
