@@ -2,7 +2,9 @@
 import { useState } from "react";
 import webp from "../src/assets/bear-kiss.webp";
 import webp2 from "../src/assets/bear-rose.webp";
-import lovesvg from "./assets/Love In The Air SVG Cut File.svg"
+import lovesvg from "./assets/Love In The Air SVG Cut File.svg";
+import LoveMessage from './LoveMessage';
+import Footer from './Footer';
 
 export default function Page() {
   const [noCount, setNoCount] = useState(0);
@@ -37,39 +39,9 @@ export default function Page() {
   };
 
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center text-center">
+    <div className="flex flex-col items-center justify-center min-h-screen text-center">
       {yesPressed ? (
-        <>
-          <img src={webp} alt="kiss" loading="eager" />
-          <div className="my-4 text-xl font-bold">
-            WOOOOOO!!! I love you pookie!! ;))
-          </div>
-          <div className="my-1 text-lg italic">
-            Well to start things off, it's been an amazing time.
-          </div>
-          <div className="my-1 text-lg italic">
-            This year has been fun, lovely, memorable, and a bit less stressful,
-            just because of your presence alone.
-          </div>
-          
-          <img src={lovesvg}
-          className="fixed animate-pulse top-10 md:left-24 left-6 md:w-40 w-28"
-          />
-
-          <div className="my-1 text-lg italic">
-            I know sometimes I'm stressful and annoying, and I want to thank you
-            for always putting up with me and taking care of me.
-          </div>
-          <div className="my-1 text-lg italic">
-            I asked in the only way I could—by programming. Took me around
-            26hrs: 57min: 25sec to finish this, according to my computer xD.
-          </div>
-          <div className="my-1 text-lg italic">
-            To wrap things up, I love you and want to spend as many years as
-            possible by your side. If I die first, I'll be waiting for you on
-            the other side. ❤️
-          </div>
-        </>
+        <LoveMessage />
       ) : (
         <>
           <img className="h-[200px]" src={webp2} alt="rose" loading="eager" />
@@ -95,6 +67,7 @@ export default function Page() {
           </div>
         </>
       )}
+      <Footer />
     </div>
   );
 }

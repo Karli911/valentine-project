@@ -1,0 +1,56 @@
+Ensure that each year's version of the project is fully functional, you should include the old versions of the .tsx and .css files in the respective year's folder. 
+This way, when a user selects a different year, they will be redirected to a complete and independent version of the project for that year.
+Here is an example of how you can structure the folders and files:
+
+
+/c:/Users/turka/Desktop/valentine-project
+│
+├── 2023
+│   ├── src
+│   │   ├── assets
+│   │   ├── components
+│   │   ├── App.tsx
+│   │   ├── Footer.tsx
+│   │   ├── LoveMessage.tsx
+│   │   ├── main.tsx
+│   │   ├── index.css
+│   │   └── vite-env.d.ts
+│   └── index.html
+│
+├── 2024
+│   ├── src
+│   │   ├── assets
+│   │   ├── components
+│   │   ├── App.tsx
+│   │   ├── Footer.tsx
+│   │   ├── LoveMessage.tsx
+│   │   ├── main.tsx
+│   │   ├── index.css
+│   │   └── vite-env.d.ts
+│   └── index.html
+│
+├── 2025
+│   ├── src
+│   │   ├── assets
+│   │   ├── components
+│   │   ├── App.tsx
+│   │   ├── Footer.tsx
+│   │   ├── LoveMessage.tsx
+│   │   ├── main.tsx
+│   │   ├── index.css
+│   │   └── vite-env.d.ts
+│   └── index.html
+│
+├── src
+│   ├── assets
+│   ├── components
+│   ├── App.tsx
+│   ├── Footer.tsx
+│   ├── LoveMessage.tsx
+│   ├── main.tsx
+│   ├── index.css
+│   └── vite-env.d.ts
+│
+├── index.html
+└── package.json
+
