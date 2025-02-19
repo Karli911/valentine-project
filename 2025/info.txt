@@ -3,7 +3,7 @@ This way, when a user selects a different year, they will be redirected to a com
 Here is an example of how you can structure the folders and files:
 
 
-/c:/Users/turka/Desktop/valentine-project
+./valentine-project
 │
 ├── 2023
 │   ├── src
