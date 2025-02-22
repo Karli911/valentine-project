@@ -22,7 +22,7 @@ export default function Page() {
       "What if I asked really nicely?",
       "Pretty please",
       "With a cheesecake on top?",
-      "Lushnjare drreqi",
+      "Thuj po jqj",
       "But :*(",
       "PLEASE POOKIE",
       "I am going to die",
@@ -46,7 +46,7 @@ export default function Page() {
         <>
           <img className="h-[200px]" src={webp2} alt="rose" loading="eager" />
           <h1 className="my-4 text-4xl font-bold">
-            Sarush, will you be my Valentine?
+            Will you be my Valentine?
           </h1>
           <h2 className="text-2xl">pls don't be mean :(</h2>
           <div className="flex items-center justify-center gap-4 mt-4">
